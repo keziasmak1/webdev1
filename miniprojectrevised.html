@@ -22,22 +22,32 @@
     <h2 class="header-bg">Ingredient</h2>
     
      <div class="appbar">
-        <div>
             <ul>
-                <li>½ cup granulated sugar(100 g)</li>
-                <li>¾ cup brown sugar(165 g), packed</li>
-                <li>1 teaspoon salt</li>
-                <li>½ cup unsalted butter(115 g), melted</li>
-                <li>1 egg</li>
-                <li>1 teaspoon vanilla extract</li>
-                <li>1 ¼ cups all-purpose flour(155 g)</li>
-                <li>½ teaspoon baking soda</li>
-                <li>4 oz milk or semi-sweet chocolate chunks(110 g)</li>
-                <li>4 oz dark chocolate chunk(110 g), or your preference</li>
-            </ul>
-        </div>
-    </div>
-
+                <li>
+                    <div>
+                        <div>½ cup granulated sugar</div>
+                        <div>100 g</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div>¾ cup brown sugar</div>
+                        <div>165 g</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div>½ cup unsalted butter</div>
+                        <div>115 g</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div>1 ¼ cups all-purpose flour</div>
+                        <div>155 g</div>
+                    </div>
+                </li>
+       
     <h2 class="header-bg">Recipe</h2>
 
      <div class="appbar">
@@ -85,5 +95,15 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+    ul li div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    ol,
+    ul {
+        padding: 0 16px;
+        padding-left: 48;
     }
 </style>

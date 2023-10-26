@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="" width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="appbar">
+        <h1 class="header-bg">The Best Chewy Chocolate Chips Cookies</h1>
+    </div>
+    <div class="container">
+        <div class="content">
+            <a href="https://tasty.co/recipe/the-best-chewy-chocolate-chip-cookies">
+                <img src="https://dk2dv4ezy246u.cloudfront.net/widgets/sSG86i4yv01g_large.jpg"
+                    alt="Image of Chocolate Chip Cookies"></a>
+            <div class="text">
+                <h2 class="header-bg">Ingredient</h2>
+                <ul>
+                    <li>
+                        <div>
+                            <div>½ cup granulated sugar</div>
+                            <div>100 g</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <div>¾ cup brown sugar</div>
+                            <div>165 g</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <div>½ cup unsalted butter</div>
+                            <div>115 g</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <div>1 ¼ cups all-purpose flour</div>
+                            <div>155 g</div>
+                        </div>
+                    </li>
+
+                    <h2 class="header-bg">Recipe</h2>
+                            <ol>
+                                <li>In a large bowl, whisk together the sugars, salt, and butter until a paste forms
+                                    with no lumps.</li>
+                                <li>Whisk in the egg and vanilla, beating until light ribbons fall off the whisk and
+                                    remain for a short while before falling back into the mixture.</li>
+                                <li>Sift in the flour and baking soda, then fold the mixture with a spatula (Be careful
+                                    not to overmix, which would cause the gluten in the flour to toughen resulting in
+                                    cakier cookies).</li>
+                                <li>Fold in the chocolate chunks, then chill the dough for at least 30 minutes. For a
+                                    more intense toffee-like flavor and deeper color, chill the dough overnight. The
+                                    longer the dough rests, the more complex its flavor will be.</li>
+                                <li>Preheat oven to 350°F (180°C). Line a baking sheet with parchment paper.</li>
+                                <li>Scoop the dough with an ice-cream scoop onto a parchment paper-lined baking sheet,
+                                    leaving at least 4 inches (10 cm) of space between cookies and 2 inches (5 cm) of
+                                    space from the edges of the pan so that the cookies can spread evenly.</li>
+                                <li>Bake for 12-15 minutes, or until the edges have started to barely brown.</li>
+                                <li>Cool completely before serving.</li>
+                            </ol>
+            </div>
+        </div>
+    </div>
+    <div class="appbar">
+        <h1 class="header-bg">ENJOY!</h1>
+    </div>
+</body>
+
+<style>
+    * {
+        background-color: antiquewhite;
+        font-family: 'Gaegu';
+    }
+
+    h2 {
+        margin:0;
+        padding:0;
+    }
+
+    .header-bg {
+        background-color: chocolate;
+        color: aliceblue;
+        font-family: 'Playfair Display';
+        text-align: center;
+    }
+
+    img {
+        width: 100vw;
+        aspect-ratio: 1;
+        object-fit: cover;
+        margin-bottom: 14px;
+    }
+
+    .appbar {
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: medium;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    ul li div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    ol,
+    ul {
+        padding: 0 16px;
+        /* padding-left: 48px; */
+    }
+
+    div.content,
+    div.text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.content {
+        gap: 16px;
+    }
+
+    @media only screen and (min-width: 600px) {
+        img {
+            object-fit: cover;
+            flex: 1;
+            width: 50vw;
+        }
+
+        div.content {
+            flex-direction: row;
+            width: 100vw;
+        }
+
+        div.text {
+            flex: 1;
+        }
+    }
+</style>
+
+</html>
